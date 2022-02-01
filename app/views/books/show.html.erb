@@ -1,0 +1,17 @@
+<body>
+   <p class="flash-message"><%= notice %></p>
+
+  <p class="text">
+    <strong>Title:</strong>
+    <%= @book.title %>
+  </P>
+
+  <p class="text">
+    <strong>Body:</strong>
+    <%= @book.body %>
+  </P>
+
+  <%= link_to "Edit", edit_book_path %>
+  <%="|"%>
+  <%= link_to "Back", index_path %>
+</body>
